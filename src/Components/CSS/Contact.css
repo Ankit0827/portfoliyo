@@ -1,0 +1,60 @@
+.parent_contact_div{
+    display: flex;
+    border: 1px solid red;
+    color: white;
+
+}
+.left_contact_div{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid red;
+    background-color: black;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+.heading>:nth-child(1){
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+.information_about_me{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.chat_to_us_div{
+    display: flex;
+    flex-direction: column; 
+}
+.chat_to_us_div>:nth-child(1){
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+.office_div{
+    display: flex;
+    flex-direction: column; 
+}
+.office_div>:nth-child(1){
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+.phon_div{
+    display: flex;
+    flex-direction: column; 
+}
+.phon_div>:nth-child(1){
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+.right_contact_div{
+    display: flex;
+    flex: 3;
+    border: 1px solid blue;
+}

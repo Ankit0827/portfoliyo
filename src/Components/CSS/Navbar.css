@@ -1,0 +1,16 @@
+.nav_link{
+    color: rgb(56, 55, 55);
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.nav_link:hover{
+    cursor: pointer;
+    color: rgb(71, 166, 144);
+}
+.navbar_main_div{
+   background-color: gray;
+   padding: 1rem;
+   padding-left: 5rem;
+}
+
