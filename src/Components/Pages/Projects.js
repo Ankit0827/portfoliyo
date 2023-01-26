@@ -1,8 +1,8 @@
 import React from "react";
 import "../CSS/Project.css";
-import image1 from "../Pages/image1.png";
-import image2 from "../Pages/image2.png";
-import National_CSR_Logo from "../Pages/National_CSR_Logo.png";
+import image1 from "../images/image1.png";
+import image2 from "../images/image2.png";
+import National_CSR_Logo from "../images/National_CSR_Logo.png";
 
 const Projects = () => {
   return (
@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="project_subparent_div ">
 
           <div className="project_1 card">
-            <img className="images" src={image1}></img>
+            <img className="images" src={image1} alt=''></img>
             <a
               href="https://github.com/Ankit0827/weatherforcast"
               className=" para text-white">
@@ -32,7 +32,7 @@ const Projects = () => {
           </div>
 
           <div className="project_2 card">
-            <img className="images" src={image2}></img>
+            <img className="images" src={image2} alt=''></img>
             <a
               href="https://github.com/Ankit0827/crud"
               className=" para text-white">
@@ -45,7 +45,7 @@ const Projects = () => {
           </div>
 
           <div className="project_3 card">
-            <img className="images3" src={National_CSR_Logo}></img>
+            <img className="images3" src={National_CSR_Logo} alt=''></img>
             <a
               href="https://github.com/Ankit0827/cloneOfNCR"
               className="para text-white">

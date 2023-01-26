@@ -1,22 +1,49 @@
 .parent_contact_div{
     display: flex;
-    border: 1px solid red;
     color: white;
-
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 9px 8px 5px rgb(211, 211, 211);
+   
 }
 .left_contact_div{
     display: flex;
     flex: 1;
     flex-direction: column;
-    border: 1px solid red;
-    background-color: black;
+    background-color: rgb(87, 86, 86);
+    padding-left: 4rem;
+    padding-top: 2rem;
+    border-radius: 7px 0px 0px 7px;
+
+}
+.social_media_div{
+    height: 100%;
+    gap: 4rem;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+.social_media_div>:nth-child(1){
+   width: 1.1rem;
+   height: max-content;
+}
+.social_media_div>:nth-child(2){
+   height: max-content;
+}
+a{
+    color: white;
+   /* font-size: 2rem; */
+   height: max-content;
 }
 .heading{
     display: flex;
     flex-direction: column;
+    padding-right: 2rem;
 }
 .heading>:nth-child(1){
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5rem;
 
 }
@@ -28,33 +55,73 @@
 }
 .chat_to_us_div{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+   
 }
 .chat_to_us_div>:nth-child(1){
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5rem;
 
 }
+.chat_to_us_div>:nth-child(2){
+   padding-left: 2.5rem;
+
+}
+
+.chat_to_us_div>:nth-child(3){
+    padding-left: 2.5rem;
+ 
+ }
+ .chat_fotnausome>:nth-child(2){
+    padding-left: 1rem;
+ }
 .office_div{
     display: flex;
     flex-direction: column; 
 }
 .office_div>:nth-child(1){
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5rem;
 
 }
+.office_div>:nth-child(2){
+    padding-left: 2.6rem;
+
+}
+/* .office_div>:nth-child(3){
+    padding-left: 1.5rem;
+
+} */
+
+.office_location>:nth-child(2){
+    padding-left: 1.4rem;
+ }
 .phon_div{
     display: flex;
     flex-direction: column; 
 }
 .phon_div>:nth-child(1){
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5rem;
 
 }
+.phon_div>:nth-child(2){
+    padding-left: 2.5rem;
+}
+/* .phon_div>:nth-child(3){
+    padding-left: 1.3rem;
+} */
+
+
+.mobileicon_div>:nth-child(2){
+    padding-left: 1.4rem;
+ }
 .right_contact_div{
     display: flex;
-    flex: 3;
-    border: 1px solid blue;
+    flex: 2;
+    border-radius: 0px 7px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 2rem; 
 }

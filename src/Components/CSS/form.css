@@ -1,0 +1,20 @@
+.parent_form_div{
+    color: black !important;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+}
+input.form-input{
+    border: none;
+    outline: none;
+    border: 2px solid #ddd;
+    border-radius: 0.4rem;
+    padding: 12px;
+    background-color: #fff;
+    color: #ddd;
+}
+
+.check_box{
+    display: flex;
+}

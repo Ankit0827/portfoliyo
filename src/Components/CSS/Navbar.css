@@ -1,16 +1,103 @@
-.nav_link{
-    color: rgb(56, 55, 55);
-    font-weight: 700;
-    text-decoration: none;
-    
+.parent_div{
+    background-color: black;
+    color: white;
 }
-.nav_link:hover{
+.fontIcondiv{
+    display: none;
+    gap: 1rem;
+    padding: 1rem;
+    padding-left: 5rem;
+    font-size: 1.3rem;
+}
+.fontIcondiv>:nth-child(1){
+      width: 2rem;
+      height: 100%;
+}
+.main_navbar_div{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    padding-left: 5rem;
+    font-size: 1.3rem;
+}
+.main_navbar_div>:nth-child(1):hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    padding-bottom: 0.5rem; 
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px #888888;
     cursor: pointer;
-    color: rgb(71, 166, 144);
 }
-.navbar_main_div{
-   background-color: gray;
-   padding: 1rem;
-   padding-left: 5rem;
+.main_navbar_div>:nth-child(2):hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    padding-bottom: 0.5rem; 
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px #888888;
+    cursor: pointer;
+
+}.main_navbar_div>:nth-child(3):hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    padding-bottom: 0.5rem; 
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px #888888;
+    cursor: pointer;
+
 }
 
+.main_navbar_toggle_div{
+    width: max-content;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    margin-left: 5rem;
+    padding-bottom: 1rem;
+}
+.main_navbar_toggle_div>:nth-child(1):hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    padding-bottom: 0.5rem; 
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px #888888;
+    cursor: pointer;
+
+}
+.main_navbar_toggle_div>:nth-child(2):hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    box-sizing: border-box;
+
+    padding-bottom: 0.5rem;
+    box-shadow: 0px 0px 5px 5px #888888;
+    cursor: pointer;
+
+
+
+
+}.main_navbar_toggle_div>:nth-child(3):hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    padding-bottom: 0.5rem;
+    box-shadow: 0px 0px 5px 5px #888888;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:600px){
+    .fontIcondiv{
+        display: block;
+    } 
+    .main_navbar_div{
+        display: none;
+        gap: 1rem;
+    }
+}

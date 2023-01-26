@@ -1,5 +1,9 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope ,faLocationDot,faMobile} from '@fortawesome/free-solid-svg-icons'
+import { faTwitter,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import '../CSS/Contact.css'
+import Form from '../Pages/subpages/Form'
 
 const Contact = () => {
    return (
@@ -11,21 +15,37 @@ const Contact = () => {
             </div>
             <div className="information_about_me ">
                <div className='chat_to_us_div'>
+                  <div className="chat_fotnausome">
+                  <FontAwesomeIcon icon={faEnvelope} />
                   <span className='chat'>Chat to us</span>
+                  </div>
                   <span>Our friendly team is here to help</span>
                   <span className="email">a.verma0827@gmail.com</span>
                </div>
                <div className='office_div'>
-                  <span className="office">Ofiice</span>
+                  <div className="office_location">
+                  <FontAwesomeIcon icon={faLocationDot} />
+                       <span className="office">Ofiice</span>
+                  </div>
                   <span>Come and say hello at our office </span>
                </div>
                <div className='phon_div'>
-                  <span className="phon">Phon</span>
+                  <div className="mobileicon_div">
+                  <FontAwesomeIcon icon={faMobile} />
+                      <span className="phon">Phone</span>
+                  </div>
                   <span>Mon-Fri from 9am to 6pm</span>
                </div>
             </div>
+            <div className="social_media_div">
+            <FontAwesomeIcon icon={faTwitter} />            
+            <a href='https://www.instagram.com/ankit.verma0827/'><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href='https://www.linkedin.com/in/ankit-verma-701b77220/'><FontAwesomeIcon icon={faLinkedin}/></a>
+            </div>
          </div>
-         <div className="right_contact_div"></div>
+         <div className="right_contact_div">
+            <Form/>
+         </div>
       </div>
    )
 }

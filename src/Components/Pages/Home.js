@@ -1,8 +1,6 @@
 import React from "react";
-import Navbar from '../Subcomponents/Navbar'
 import '../CSS/Home.css'
-import ankit from '../Pages/ankit.png'
-import Projects from "../Pages/Projects";
+import ankit from '../images/ankit.png'
 
 const Home = () => {
     return (
@@ -30,7 +28,7 @@ const Home = () => {
             </div>
             <div className="image_div">
                 <div className="image">
-                      <img className="my_image2" src={ankit}></img>
+                      <img className="my_image2" src={ankit} alt=''/>
                       <h4>Ankit Verma</h4>
                 </div>
                 <div className="btn2">
