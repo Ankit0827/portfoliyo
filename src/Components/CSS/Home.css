@@ -1,6 +1,5 @@
 .portfolio_parent_div {
     display: flex;
-    /* padding-top: 5rem; */
 }
 
 .content_div {
@@ -77,7 +76,6 @@
     .portfolio_parent_div {
         display: flex;
         flex-direction: column;
-        height: 91.4vh;
         width: 100%;
     }
 
