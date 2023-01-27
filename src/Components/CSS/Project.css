@@ -68,10 +68,3 @@
     color: #076c91;
 }
 
-@media screen and (max-width: 450px) {
-    .project_parent_div{
-        height: max-content; 
-    }
-
-
-}

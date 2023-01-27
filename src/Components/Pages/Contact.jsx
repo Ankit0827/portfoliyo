@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope ,faLocationDot,faMobile} from '@fortawesome/free-solid-svg-icons'
-import { faTwitter,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter,faInstagram,faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import '../CSS/Contact.css'
 import Form from '../Pages/subpages/Form'
@@ -38,7 +38,7 @@ const Contact = () => {
                </div>
             </div>
             <div className="social_media_div">
-            <FontAwesomeIcon icon={faTwitter} />            
+            <a href='https://github.com/Ankit0827'><FontAwesomeIcon icon={faGithub} /></a>           
             <a href='https://www.instagram.com/ankit.verma0827/'><FontAwesomeIcon icon={faInstagram} /></a>
             <a href='https://www.linkedin.com/in/ankit-verma-701b77220/'><FontAwesomeIcon icon={faLinkedin}/></a>
             </div>
