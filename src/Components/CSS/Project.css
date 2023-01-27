@@ -1,10 +1,13 @@
 .project_parent_div{
     /* background-color: black; */
     height: max-content; 
+    box-shadow: 0 4px 8px 0 rgba(235, 233, 233, 0.532), 0 6px 20px 0 rgba(220, 214, 211, 0.19);
+
 }
 .headin_div{
    text-align: center;
    height: max-content;
+   font-family: "Sofia", sans-serif;
    
 }
 .headin_div>h2{
@@ -64,7 +67,7 @@
 }
 .span{
     margin-left: 10px;
-    color: rgb(74, 192, 175);
+    color: #076c91;
 }
 
 @media screen and (max-width: 450px) {

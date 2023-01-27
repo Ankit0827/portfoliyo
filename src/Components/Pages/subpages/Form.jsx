@@ -2,7 +2,7 @@ import React from 'react'
 
 const form = () => {
   return (
-    <div style={{ 'width': '60%' }} className='parent_form_div'>
+    <div  className='parent_form_div'>
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-md-12'>

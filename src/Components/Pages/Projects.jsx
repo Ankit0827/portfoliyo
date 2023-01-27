@@ -12,6 +12,7 @@ const Projects = () => {
       <div className="headin_div">
         <h2>
           My<span className="span">Projects</span>
+          <hr  className="hrline"/>
         </h2>
       </div>
 

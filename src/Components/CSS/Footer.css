@@ -1,0 +1,77 @@
+.parent_footer_div{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   
+}
+.upperfooter_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(141, 140, 139);
+    padding: 2rem;
+}
+.upperfooter_div>:nth-child(1){
+    font-size: 2rem;
+}
+hr.hrline{
+    border: 3px solid rgb(182, 183, 182);
+}
+.loower_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem ;
+    padding-top: 1rem;
+    gap: 2rem;
+    color:antiquewhite;
+}
+.social_media_icon_div{
+    display: flex;
+    gap: 2rem;
+}
+.social_media_icon_div1>:nth-child(1){
+    cursor: pointer;
+    width: 2rem;
+    height: 100%;
+}
+.heaading_div>:nth-child(1){
+    font-size: 1rem;
+     font-weight: 500;
+}
+.sroll_top{
+    position: fixed;
+    right: 3rem;
+    bottom: 2.5rem;
+    z-index: 100;
+    border-radius: 50%;
+    
+}
+.sroll_top:hover{
+  opacity: 1;
+    
+}
+.btn-scroll{
+ 
+    background-color:#04445b;
+     width: 3rem;
+     height: 100%;
+     color: white;
+     border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:450px){
+    .sroll_top{
+        right: 1rem;
+        bottom: 6rem;
+        opacity: 0.2;
+        
+    }
+
+    
+}

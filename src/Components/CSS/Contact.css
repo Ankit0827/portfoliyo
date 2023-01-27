@@ -1,7 +1,6 @@
 .parent_contact_div{
     display: flex;
     color: white;
-    margin-bottom: 2rem;
     border-radius: 7px;
     border: 1px solid #ddd;
     box-shadow: 5px 9px 8px 5px rgb(211, 211, 211);
@@ -11,7 +10,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: rgb(87, 86, 86);
+    background-color: #055e7f;
     padding-left: 4rem;
     padding-top: 2rem;
     border-radius: 7px 0px 0px 7px;
@@ -124,4 +123,30 @@ a{
     align-items: center;
     color: black;
     padding: 2rem; 
+}
+
+@media screen and (max-width: 450px) {
+    .parent_contact_div{
+        display: flex;
+         flex-direction: column;
+       
+    }
+    .left_contact_div{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        border-radius: 7px ;
+    }
+    .social_media_div{
+       padding-top: 2rem;
+    }
+    .right_contact_div{
+        display: flex;
+        flex: 1;
+        border-radius: 0px 7px 0px 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: black;
+        padding: 2rem; 
+    
+    }
 }

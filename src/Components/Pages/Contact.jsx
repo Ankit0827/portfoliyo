@@ -7,7 +7,7 @@ import Form from '../Pages/subpages/Form'
 
 const Contact = () => {
    return (
-      <div className='parent_contact_div'>
+      <div className='parent_contact_div' id='contact'>
          <div className="left_contact_div">
             <div className="heading">
                <span className='getintouch'>Get in touch</span>
